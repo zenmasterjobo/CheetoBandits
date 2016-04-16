@@ -17,9 +17,5 @@ class MYPROJECT3_API ARacerAIController : public AEnemyAIController
     
     
     
-    UPROPERTY(EditAnywhere)
-    float RacerLapCount;
-	
-    
 	
 };
