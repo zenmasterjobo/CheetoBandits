@@ -1,6 +1,6 @@
-	Binaries/
-	Build/
-	Content/StarterContent/
-	Intermediate/
-	Saved/
+Content/StarterContent
+Build/
+Binaries/
+Intermediate/
+Saved/
 

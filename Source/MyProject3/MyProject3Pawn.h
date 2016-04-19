@@ -100,6 +100,9 @@ public:
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;
 	static const FName EngineAudioRPM;
+    
+    UPROPERTY(BlueprintReadWrite, Category="Player Laps")
+    float Laps = 0;
 
 private:
 	/** 
