@@ -5,4 +5,7 @@
 
 #include "EngineMinimal.h"
 
+#define COLLISION_PICKUP		ECC_GameTraceChannel1
+
+
 #endif

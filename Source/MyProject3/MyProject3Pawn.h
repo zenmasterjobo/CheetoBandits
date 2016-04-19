@@ -1,5 +1,6 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 #pragma once
+#include "Checkpoint.h"
 #include "GameFramework/WheeledVehicle.h"
 #include "MyProject3Pawn.generated.h"
 
@@ -96,6 +97,8 @@ public:
 	void OnToggleCamera();
 	/** Handle reset VR device */
 	void OnResetVR();
+    
+    void OnTrackPointReached(ACheckpoint* NewCheckpoint);
 
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;

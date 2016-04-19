@@ -362,4 +362,9 @@ void AMyProject3Pawn::UpdatePhysicsMaterial()
 	}
 }
 
+void AMyProject3Pawn::OnTrackPointReached(ACheckpoint* NewCheckpoint)
+{
+   
+}
+
 #undef LOCTEXT_NAMESPACE
