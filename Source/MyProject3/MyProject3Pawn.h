@@ -96,13 +96,18 @@ public:
 	void OnToggleCamera();
 	/** Handle reset VR device */
 	void OnResetVR();
+    
+    void OnTrackPointReached();
 
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;
 	static const FName EngineAudioRPM;
     
-    UPROPERTY(BlueprintReadWrite, Category="Player Laps")
-    float Laps = 0;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Player Laps")
+    float Laps;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Finished")
+    float Finished;
 
 private:
 	/** 

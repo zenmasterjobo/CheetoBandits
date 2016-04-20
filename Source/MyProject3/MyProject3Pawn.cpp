@@ -14,12 +14,14 @@
 #include "PhysicalMaterials/PhysicalMaterial.h"
 #include "Vehicles/WheeledVehicleMovementComponent4W.h"
 #include "Engine/SkeletalMesh.h"
+#include "Engine.h"
 
 
 #ifdef HMD_INTGERATION
 // Needed for VR Headset
-#include "Engine.h"
 #include "IHeadMountedDisplay.h"
+#include "EngineGlobals.h"
+#include "Engine/Engine.h"
 #endif // HMD_INTGERATION
 
 const FName AMyProject3Pawn::LookUpBinding("LookUp");
@@ -165,6 +167,9 @@ AMyProject3Pawn::AMyProject3Pawn()
 
 	bIsLowFriction = false;
 	bInReverseGear = false;
+    
+    Laps = 0.0f;
+    Finished = 1.0f;
 }
 
 void AMyProject3Pawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
@@ -360,6 +365,30 @@ void AMyProject3Pawn::UpdatePhysicsMaterial()
 			bIsLowFriction = true;
 		}
 	}
+}
+
+void AMyProject3Pawn::OnTrackPointReached()
+{
+    Laps += 1.0f;
+    if (Laps >= Finished)
+    {
+        GetMesh()->Deactivate();
+        GetVehicleMovementComponent()->SetThrottleInput(0.0f);
+        GetVehicleMovementComponent()->SetHandbrakeInput(true);
+        if(GEngine)
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Laps: %f"), Laps));
+        }
+        if (GetWorld())
+        {
+            APlayerController *myPlayerController = GetWorld()->GetFirstPlayerController();
+            if (myPlayerController != NULL)
+            {
+                this->DisableInput(myPlayerController);
+            }
+        }
+        
+    }
 }
 
 #undef LOCTEXT_NAMESPACE
