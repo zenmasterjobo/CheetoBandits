@@ -1,5 +1,6 @@
 // Copyright 1998-2015 Epic Games, Inc. All Rights Reserved.
 #pragma once
+#include "Checkpoint.h"
 #include "GameFramework/WheeledVehicle.h"
 #include "MyProject3Pawn.generated.h"
 
@@ -98,6 +99,7 @@ public:
 	void OnResetVR();
     
     void OnTrackPointReached();
+
 
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;

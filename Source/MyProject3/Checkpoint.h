@@ -2,6 +2,8 @@
 
 #pragma once
 
+
+#include "Engine/TargetPoint.h"
 #include "GameFramework/Actor.h"
 #include "Checkpoint.generated.h"
 
@@ -25,5 +27,6 @@ public:
     virtual void NotifyActorBeginOverlap(class AActor* Other) override;
 
 	
-	
+
+
 };

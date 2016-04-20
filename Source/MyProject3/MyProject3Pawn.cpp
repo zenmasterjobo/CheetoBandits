@@ -367,6 +367,7 @@ void AMyProject3Pawn::UpdatePhysicsMaterial()
 	}
 }
 
+
 void AMyProject3Pawn::OnTrackPointReached()
 {
     Laps += 1.0f;
@@ -390,5 +391,6 @@ void AMyProject3Pawn::OnTrackPointReached()
         
     }
 }
+
 
 #undef LOCTEXT_NAMESPACE

@@ -5,4 +5,9 @@
 
 #include "EngineMinimal.h"
 
+//DECLARE_LOG_CATEGORY_EXTERN(LogEnemy, Log, All);
+
+
+
+
 #endif

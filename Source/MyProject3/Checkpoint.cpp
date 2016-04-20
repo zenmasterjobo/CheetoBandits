@@ -5,15 +5,19 @@
 #include "MyProject3Pawn.h"
 
 
+
+
 // Sets default values
 ACheckpoint::ACheckpoint()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
     Checkpoint = CreateDefaultSubobject<UBoxComponent>(TEXT("TriggerComp"));
     Checkpoint->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
     Checkpoint->SetCollisionResponseToAllChannels(ECR_Ignore);
     Checkpoint->SetCollisionResponseToChannel(ECC_Vehicle, ECR_Overlap);
+
 }
 
 // Called when the game starts or when spawned
@@ -30,6 +34,7 @@ void ACheckpoint::Tick( float DeltaTime )
 
 }
 
+
 void ACheckpoint::NotifyActorBeginOverlap(class AActor* Other)
 {
     Super::NotifyActorBeginOverlap(Other);
@@ -39,5 +44,6 @@ void ACheckpoint::NotifyActorBeginOverlap(class AActor* Other)
         Vehicle->OnTrackPointReached();
     }
 }
+
 
 
