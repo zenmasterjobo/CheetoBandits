@@ -7,7 +7,7 @@
 
 //DECLARE_LOG_CATEGORY_EXTERN(LogEnemy, Log, All);
 
-#define COLLISION_PICKUP		ECC_GameTraceChannel1
+
 
 
 #endif

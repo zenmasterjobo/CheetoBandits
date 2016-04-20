@@ -21,22 +21,12 @@ public:
 	
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
-
-    
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Laps")
-    float laps;
-	
-    UPROPERTY(EditAnywhere, Category="Finish")
-    bool finished;
-    
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Finished")
-    float done;
     
     UBoxComponent* Checkpoint;
     
-    //void AWaypoint(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
-    
-    //TArray<class ATargetPoint*> Laps;
-    
     virtual void NotifyActorBeginOverlap(class AActor* Other) override;
+
+	
+
+
 };
