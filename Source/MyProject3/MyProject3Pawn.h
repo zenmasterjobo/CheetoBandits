@@ -98,6 +98,8 @@ public:
 	void OnResetVR();
     
     void OnTrackPointReached();
+    
+    void BoostOfSpeed();
 
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;
@@ -109,6 +111,8 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Finished")
     float Finished;
 
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Current Speed")
+    float CurrentSpeed;
 private:
 	/** 
 	 * Activate In-Car camera. Enable camera and sets visibility of incar hud display

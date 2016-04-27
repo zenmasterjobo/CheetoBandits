@@ -192,12 +192,14 @@ void AMyProject3Pawn::SetupPlayerInputComponent(class UInputComponent* InputComp
 void AMyProject3Pawn::MoveForward(float Val)
 {
 	GetVehicleMovementComponent()->SetThrottleInput(Val);
+    
 
 }
 
 void AMyProject3Pawn::MoveRight(float Val)
 {
-	GetVehicleMovementComponent()->SetSteeringInput(Val);
+    GetVehicleMovementComponent()->SetSteeringInput(Val);
+    
 }
 
 void AMyProject3Pawn::OnHandbrakePressed()
@@ -388,6 +390,17 @@ void AMyProject3Pawn::OnTrackPointReached()
             }
         }
         
+    }
+}
+
+void AMyProject3Pawn::BoostOfSpeed()
+{
+    UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(GetVehicleMovement());
+    Vehicle4W->MaxEngineRPM = 8000.0f;
+    GetVehicleMovementComponent()->SetThrottleInput(100.0f);
+    if(GEngine)
+    {
+        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Current Speed: %f"), Vehicle4W->MaxEngineRPM));
     }
 }
 
