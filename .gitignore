@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -61,11 +60,10 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-=======
 Content/StarterContent
 Build/
 Binaries/
 Intermediate/
 Saved/
 
->>>>>>> cf259dac82d776cd1e55c6c37ee1ebaebd17d1a6
+
