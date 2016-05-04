@@ -42,11 +42,11 @@ void ASpeedBoost::NotifyActorBeginOverlap(class AActor* Other)
    
     if(Vehicle)
    {
-       Vehicle->KPH = FMath::Abs(Vehicle4W->GetForwardSpeed()) * 10.0f; // big sweaty ballsacks
+       Vehicle->KPH = FMath::Abs(Vehicle4W->GetForwardSpeed()) * 10.0f;
        //GetWorldTimerManager().SetTimer(Speed, Vehicle, &AMyProject3Pawn::BoostOfSpeed, 1.5f, false);
         //Vehicle4W->Mass = 5000.0f;
         
-        //Take the GetForwardSeed() and moultiply it by a big swaty ballsack
+        //Take the GetForwardSeed() and moultiply it by 
         
         
         

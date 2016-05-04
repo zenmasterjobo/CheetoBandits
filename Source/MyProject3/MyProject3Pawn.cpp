@@ -169,8 +169,8 @@ AMyProject3Pawn::AMyProject3Pawn()
 	bIsLowFriction = false;
 	bInReverseGear = false;
     
-    Laps = 0.0f;
-    Finished = 1.0f;
+    Laps = 1.0f;
+    Finished = 4.0f;
 
     //GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Blue, FString::Printf(TEXT("Mass: %f"), Vehicle4W->Mass));
     Vehicle4W->Mass = 5000.0f;
