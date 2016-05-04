@@ -35,6 +35,7 @@ AMyProject3Pawn::AMyProject3Pawn()
 	// Car mesh
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> CarMesh(TEXT("/Game/VehicleAdv/Vehicle/Vehicle_SkelMesh.Vehicle_SkelMesh"));
 	GetMesh()->SetSkeletalMesh(CarMesh.Object);
+
 	static ConstructorHelpers::FClassFinder<UObject> AnimBPClass(TEXT("/Game/VehicleAdv/Vehicle/VehicleAnimationBlueprint"));
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 	GetMesh()->SetAnimInstanceClass(AnimBPClass.Class);
@@ -76,6 +77,7 @@ AMyProject3Pawn::AMyProject3Pawn()
 
 	// Engine 
 	// Torque setup
+    
     Vehicle4W->MaxEngineRPM = 5700.0f;
 	Vehicle4W->EngineSetup.TorqueCurve.GetRichCurve()->Reset();
 	Vehicle4W->EngineSetup.TorqueCurve.GetRichCurve()->AddKey(0.0f, 400.0f);
@@ -169,6 +171,10 @@ AMyProject3Pawn::AMyProject3Pawn()
     
     Laps = 0.0f;
     Finished = 1.0f;
+
+    //GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Blue, FString::Printf(TEXT("Mass: %f"), Vehicle4W->Mass));
+    Vehicle4W->Mass = 5000.0f;
+
 }
 
 void AMyProject3Pawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
@@ -196,7 +202,9 @@ void AMyProject3Pawn::MoveForward(float Val)
 
 void AMyProject3Pawn::MoveRight(float Val)
 {
-	GetVehicleMovementComponent()->SetSteeringInput(Val);
+
+    GetVehicleMovementComponent()->SetSteeringInput(Val);
+    
 }
 
 void AMyProject3Pawn::OnHandbrakePressed()
@@ -276,9 +284,9 @@ void AMyProject3Pawn::Tick(float Delta)
 	}	
 
 	// Pass the engine RPM to the sound component
+
     float RPMToAudioScale = 2500.0f / GetVehicleMovement()->GetEngineMaxRotationSpeed();
 	EngineSoundComponent->SetFloatParameter(EngineAudioRPM, GetVehicleMovement()->GetEngineRotationSpeed()*RPMToAudioScale);
-
    
 }
 
@@ -314,7 +322,9 @@ void AMyProject3Pawn::OnResetVR()
 
 void AMyProject3Pawn::UpdateHUDStrings()
 {
-	float KPH = FMath::Abs(GetVehicleMovement()->GetForwardSpeed()) * 0.036f;
+
+	KPH = FMath::Abs(GetVehicleMovement()->GetForwardSpeed()) * 0.036f;
+
 	int32 KPH_int = FMath::FloorToInt(KPH);
 
 	// Using FText because this is display text that should be localizable
@@ -393,5 +403,20 @@ void AMyProject3Pawn::OnTrackPointReached()
     }
 }
 
+
+
+void AMyProject3Pawn::BoostOfSpeed()
+{
+  
+    UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(GetVehicleMovement());
+    Vehicle4W->Mass = 100.0f;
+    Vehicle4W->MaxEngineRPM = 10000.0f;
+    GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Mass: %f"), Vehicle4W->Mass));
+//  if(b)
+    //{
+        //Vehicle4W->UpdateEngineSetup(TurboEngineData);
+    //}
+    
+}
 
 #undef LOCTEXT_NAMESPACE

@@ -100,6 +100,10 @@ public:
     
     void OnTrackPointReached();
 
+    
+    void BoostOfSpeed();
+
+
 
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;
@@ -110,6 +114,20 @@ public:
     
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Finished")
     float Finished;
+
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Current Speed")
+    float CurrentSpeed;
+    
+    //FVehicleEngineData TurboEngineData;
+    bool b;
+    
+    UPROPERTY(EditAnywhere)
+    float KPH;
+    
+    
+    
+    
 
 private:
 	/** 

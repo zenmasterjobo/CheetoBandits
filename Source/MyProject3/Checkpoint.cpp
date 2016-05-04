@@ -41,8 +41,9 @@ void ACheckpoint::NotifyActorBeginOverlap(class AActor* Other)
     AMyProject3Pawn* Vehicle = Cast<AMyProject3Pawn>(Other);
     if(Vehicle)
     {
-        FVector speed = GetVelocity();
-        Vehicle->AddMovementInput(speed);
+        //FVector speed = GetVelocity();
+        //Vehicle->AddMovementInput(speed);
+
         Vehicle->OnTrackPointReached();
     }
 }
