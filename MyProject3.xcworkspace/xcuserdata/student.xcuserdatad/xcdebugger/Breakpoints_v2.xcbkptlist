@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/MyProject3/SpeedBoost.cpp"
+            timestampString = "484028369.489676"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "ASpeedBoost::NotifyActorBeginOverlap(class AActor* Other)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484020510.295455"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-8535-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484020914.424773"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-3008-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484021166.724538"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-1875-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484021245.860517"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-7017-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484021311.038621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-838-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484021537.130275"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-3429-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484021592.951089"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-2040-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484021745.166875"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-8427-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484021918.512537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-1747-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484021979.383555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-3285-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484022203.757254"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-6144-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484022294.666781"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-5672-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484022405.335001"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-2350-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484022632.229731"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-5939-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484023194.835157"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-1815-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484023553.872989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-3557-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484023616.749568"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-3771-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484023688.668955"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-5248-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484023825.243773"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-1806-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484023980.267836"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-9468-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024231.923608"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-4970-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024311.076443"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-1954-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024370.669964"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-2671-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024433.810401"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-1642-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024497.775846"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-2315-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024661.574184"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-2236-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024773.580572"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-2266-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024807.080902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASpeedBoost::NotifyActorBeginOverlap(AActor*)"
+                  moduleName = "UE4Editor-MyProject3-7821-Mac-DebugGame.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/CheetoBandits/Source/MyProject3/SpeedBoost.cpp"
+                  timestampString = "484024863.025187"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/MyProject3/SpeedBoost.h"
+            timestampString = "484022899.575847"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/MyProject3/MyProject3Pawn.cpp"
+            timestampString = "484026485.626765"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "411"
+            endingLineNumber = "411">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/MyProject3/SpeedBoost.cpp"
+            timestampString = "484027850.509756"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "ASpeedBoost::NotifyActorBeginOverlap(class AActor* Other)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/MyProject3/SpeedBoost.cpp"
+            timestampString = "484027852.94969"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "ASpeedBoost::NotifyActorBeginOverlap(class AActor* Other)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/MyProject3/SpeedBoost.cpp"
+            timestampString = "484027855.613562"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "ASpeedBoost::NotifyActorBeginOverlap(class AActor* Other)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/MyProject3/SpeedBoost.cpp"
+            timestampString = "484028369.489676"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "ASpeedBoost::NotifyActorBeginOverlap(class AActor* Other)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
