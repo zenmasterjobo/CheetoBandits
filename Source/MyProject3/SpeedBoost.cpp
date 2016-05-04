@@ -3,6 +3,7 @@
 #include "MyProject3.h"
 #include "SpeedBoost.h"
 #include "MyProject3Pawn.h"
+#include "Vehicles/WheeledVehicleMovementComponent4W.h"
 
 
 // Sets default values
@@ -37,8 +38,18 @@ void ASpeedBoost::NotifyActorBeginOverlap(class AActor* Other)
 {
     Super::NotifyActorBeginOverlap(Other);
     AMyProject3Pawn* Vehicle = Cast<AMyProject3Pawn>(Other);
+    UWheeledVehicleMovementComponent4W* Vehicle4W = CastChecked<UWheeledVehicleMovementComponent4W>(Vehicle->GetVehicleMovement());
+   
     if(Vehicle)
-    {
-        Vehicle->BoostOfSpeed();
+   {
+       Vehicle->KPH = FMath::Abs(Vehicle4W->GetForwardSpeed()) * 10.0f; // big sweaty ballsacks
+       //GetWorldTimerManager().SetTimer(Speed, Vehicle, &AMyProject3Pawn::BoostOfSpeed, 1.5f, false);
+        //Vehicle4W->Mass = 5000.0f;
+        
+        //Take the GetForwardSeed() and moultiply it by a big swaty ballsack
+        
+        
+        
     }
+    
 }

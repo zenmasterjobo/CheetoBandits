@@ -113,6 +113,16 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Current Speed")
     float CurrentSpeed;
+    
+    //FVehicleEngineData TurboEngineData;
+    bool b;
+    
+    UPROPERTY(EditAnywhere)
+    float KPH;
+    
+    
+    
+    
 private:
 	/** 
 	 * Activate In-Car camera. Enable camera and sets visibility of incar hud display

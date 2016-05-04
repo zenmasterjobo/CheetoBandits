@@ -22,6 +22,9 @@ public:
 
     UBoxComponent* Boost;
     
+    FTimerHandle Speed;
+    
     virtual void NotifyActorBeginOverlap(class AActor* Other) override;
+    
 	
 };
