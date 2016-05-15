@@ -253,6 +253,7 @@ void AMyProject3Pawn::EnableIncarView(const bool bState)
 
 void AMyProject3Pawn::Tick(float Delta)
 {
+    Super::Tick(Delta);
 	// Setup the flag to say we are in reverse gear
 	bInReverseGear = GetVehicleMovement()->GetCurrentGear() < 0;
 	
@@ -292,6 +293,8 @@ void AMyProject3Pawn::Tick(float Delta)
 
 void AMyProject3Pawn::BeginPlay()
 {
+    Super::BeginPlay();
+    
 	bool bWantInCar = false;
 	// First disable both speed/gear displays
 	bInCarCameraActive = false;
