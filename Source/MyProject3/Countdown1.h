@@ -31,6 +31,8 @@ public:
     
     void CountdownHasFinished();
     
+    void CountdownHide();
+    
     FTimerHandle CountdownTimerHandle;
     
 };

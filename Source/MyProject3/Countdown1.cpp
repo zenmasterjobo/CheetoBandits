@@ -74,5 +74,16 @@ void ACountdown1::CountdownHasFinished()
 {
     //Change to a special readout
     CountdownText->SetText(TEXT("GO!"));
+    CountdownHide();
     //CountdownText->SetText(TEXT(""));
 }
+
+
+void ACountdown1::CountdownHide()
+{
+    CountdownText->SetText(TEXT(""));
+}
+
+
+
+
