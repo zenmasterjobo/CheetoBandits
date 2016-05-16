@@ -169,8 +169,8 @@ AMyProject3Pawn::AMyProject3Pawn()
 	bIsLowFriction = false;
 	bInReverseGear = false;
     
-    Laps = 1.0f;
-    Finished = 4.0f;
+    //Laps = 1.0f;
+    //Finished = 4.0f;
 
     //GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Blue, FString::Printf(TEXT("Mass: %f"), Vehicle4W->Mass));
     Vehicle4W->Mass = 5000.0f;
@@ -253,6 +253,7 @@ void AMyProject3Pawn::EnableIncarView(const bool bState)
 
 void AMyProject3Pawn::Tick(float Delta)
 {
+    Super::Tick(Delta);
 	// Setup the flag to say we are in reverse gear
 	bInReverseGear = GetVehicleMovement()->GetCurrentGear() < 0;
 	
@@ -292,6 +293,8 @@ void AMyProject3Pawn::Tick(float Delta)
 
 void AMyProject3Pawn::BeginPlay()
 {
+    Super::BeginPlay();
+    
 	bool bWantInCar = false;
 	// First disable both speed/gear displays
 	bInCarCameraActive = false;
@@ -381,6 +384,7 @@ void AMyProject3Pawn::UpdatePhysicsMaterial()
 
 void AMyProject3Pawn::OnTrackPointReached()
 {
+    /*
     Laps += 1.0f;
     if (Laps >= Finished)
     {
@@ -401,6 +405,7 @@ void AMyProject3Pawn::OnTrackPointReached()
         }
         
     }
+     */
 }
 
 
